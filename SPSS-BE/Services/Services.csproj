@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Repositories\Repositories.csproj" />
+      <ProjectReference Include="..\Shared\Shared.csproj" />
+      <ProjectReference Include="..\Tools\Tools.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="14.0.0" />
+      <PackageReference Include="Firebase.Auth" Version="1.0.0" />
+      <PackageReference Include="FirebaseAdmin" Version="3.1.0" />
+      <PackageReference Include="FirebaseStorage.net" Version="1.0.3" />
+      <PackageReference Include="Google.Cloud.Storage.V1" Version="4.13.0" />
+      <PackageReference Include="Mapster" Version="7.4.2-pre02" />
+      <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.8" />
+      <PackageReference Include="Microsoft.ML" Version="3.0.0" />
+      <PackageReference Include="Microsoft.ML.OnnxRuntime" Version="1.16.3" />
+      <PackageReference Include="Microsoft.ML.TensorFlow" Version="3.0.0" />
+      <PackageReference Include="QRCoder" Version="1.6.0" />
+      <PackageReference Include="SixLabors.ImageSharp" Version="3.1.1" />
+      <PackageReference Include="System.Drawing.Common" Version="9.0.5" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Helper\" />
+    </ItemGroup>
+
+  
+
+</Project>
